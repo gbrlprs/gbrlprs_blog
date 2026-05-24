@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = ""
+title = "gbrlprs"
 
 [params]
   displayName = "EN"
@@ -15,12 +15,12 @@ title = ""
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "gabriel pires"
+  name = "Gabriel Pires"
   mail = "function_anonymous@proton.me"
-  image = "https://avatars.githubusercontent.com/u/52489619?v=4"
+  image = "https://avatars.githubusercontent.com/u/52489619?s=400&u=94dd32774a6848ea3a09c51cf0703aa99b3fe34c&v=4"
   imageQuality = 96
-  headline = "writing some cyber threat stuff"
-  bio = "I have only one desire; to become immortal and then die."
+  headline = "In order to see birds, it is necessary to become part of the silence."
+#  bio = "I have only one desire; to become immortal and then die."
 links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
