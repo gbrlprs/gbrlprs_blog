@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Sun, 24 May 2026 02:27:08 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2026 06:10:55 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>World Monitor: Integrating Cyber Threat Intelligence into Geospatial Analysis</title>
+      <link>http://localhost:1313/posts/worldmonitor/</link>
+      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/worldmonitor/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/worldmonitor/feature2.jpg" />
+    </item>
+    
+    <item>
+      <title>Bellingcat’s Archive 2025: How I completed all challenges in one day</title>
+      <link>http://localhost:1313/posts/bellingcat/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bellingcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bellingcat/feature1.jpg" />
+    </item>
     
     <item>
       <title>I set up my resume on the deep web as a cyber threat intelligence project</title>
