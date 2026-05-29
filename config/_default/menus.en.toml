@@ -11,6 +11,13 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "home"
+  pageRef = "/"
+  weight = 1
+  pre = "home"
+
+
+[[main]]
   name = "posts"
   pageRef = "posts"
   weight = 25
