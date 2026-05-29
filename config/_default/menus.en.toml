@@ -13,41 +13,37 @@
 [[main]]
   name = "home"
   pageRef = "/"
-  weight = 1
-  pre = "home"
-
+  weight = 15
 
 [[main]]
   name = "posts"
   pageRef = "posts"
   weight = 25
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Geopolitical Intelligence Analysis"
+  parent = "categories"
+  pageRef = "posts"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Cybersecurity Engineering Projects"
+  parent = "categories"
+  pageRef = "posts"
+  weight = 20
 
-#[[subnavigation]]
+
+# [[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
-#  weight = 10
+#  weight = 25
 
-#[[subnavigation]]
+# [[subnavigation]]
 #  name = "My Awesome Category"
 #  pre = "github"
 #  pageRef = "categories/awesome"
-#  weight = 20
+#  weight = 30
 
 [[main]]
   name = "categories"
