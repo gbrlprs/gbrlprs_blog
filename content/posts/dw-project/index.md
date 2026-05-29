@@ -4,7 +4,6 @@ draft = false
 title = 'I set up my resume on the deep web as a cyber threat intelligence project'
 +++
 
-## Project Overview
 This project was not built to chase anonymity, nor to aestheticize the deep web. It exists as a practical exercise in understanding how threat infrastructure behaves when removed from indexed space.
 
 Tor hidden services impose constraints that are easy to describe but harder to internalize without direct contact: limited visibility, asymmetric information, fragile operational security, and an environment where small configuration choices leave disproportionate analytical traces. Within a Cyber Threat Intelligence (CTI) workflow, these constraints are not theoretical; they define what can and cannot be observed, inferred, or attributed.
@@ -23,9 +22,11 @@ For those interested in accessing the artifact itself, the non-interactive onion
 
 rv2ijwmksml5brayc6lev6zptjqimeu3ypapxrurwavdjtdwjueaqvad.onion
 
-### Key Tools Used:
+Key Tools Used:
 * **Tor Network** for hosting the hidden service.
-* **Log Analytics** to track incoming connections.
+* **[REDACTED]** for programming.
+* **[REDACTED]** for security.
+* **Log Analytics** to track incoming connections and understand a different kind of network flow.
 
 Here is a quick look at the architecture:
 ![My Resume Architecture](dw-project1.png)

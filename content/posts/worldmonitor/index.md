@@ -1,9 +1,12 @@
 +++
 date = '2026-05-26T06:10:55-03:00'
 draft = false
-title = 'World Monitor: Integrating Cyber Threat Intelligence into Geospatial Analysis'
+title = 'WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis'
 +++
 
+![CTI WorldMonitor](feature2.jpg)
+
+## Overview
 I have recently been contributing voluntary development work to World Monitor, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.
 
 One of the recurring limitations within modern cyber threat intelligence is fragmentation. Malware infrastructure, infected hosts, indicators of compromise, and Advanced Persistent Threat (APT) activity are often distributed across separate platforms, feeds, and analytical layers. Tactical indicators tend to be consumed independently, while strategic attribution remains disconnected from the infrastructure generating those signals in real time.
@@ -12,19 +15,33 @@ The current work on World Monitor attempts to reduce that separation by introduc
 
 ## Cyber Threat Infrastructure Layer
 
-The first major addition focused on integrating live cyber threat infrastructure data throughout the platform’s global map interface. This includes malware-associated hosts, infected IP addresses, and additional contextual metadata designed to improve immediate situational awareness during analysis.
+The first major addition focused on integrating live cyber threat infrastructure data throughout the platform’s global map interface. This includes malware-associated hosts, infected IP addresses, and additional contextual metadata designed to improve immediate situational awareness during analysis. Mostly Malware-as-a-Service / Ransomware-as-a-Service infrastructure displayed throughout the entire map.
 
-The implemented features currently include:
+- 1.0 **identifies** whether the infrastructure is operating as a malware host
+- 1.1 **visualizes** infected or compromised IP addresses
+- 1.2 **displays** country-level ccTLD attribution
+- 1.3 **displays** last-seen activity using full dd/mm/year formatting alongside 24-hour clock timestamps
+- 1.4 **displays** infrastructure criticality scoring for prioritization purposes
 
-Identification of malware host infrastructure
-Visualization of infected IP addresses
-Country-level ccTLD attribution
-Last-seen activity timestamps with full date and 24-hour time formatting
-Threat criticality scoring
+By embedding this information directly into a geospatial interface, infrastructure activity becomes easier to contextualize geographically and temporally rather than remaining confined to static feeds or isolated threat reports. This implementation improves the ability to correlate infrastructure activity across geographic regions and operational timelines within a unified analytical environment.
 
-By embedding this information directly into a geospatial interface, infrastructure activity becomes easier to contextualize geographically and temporally rather than remaining confined to static feeds or isolated threat reports.
+The second major addition focused on integrating Advanced Persistent Threat intelligence directly into the platform’s geospatial analysis interface. The implementation was designed to provide contextual attribution, operational behavior mapping, and threat actor profiling capabilities alongside live infrastructure visualization.
 
-## Advanced Persistent Threat (APT) Integration
+The implemented features currently include APTs.
+
+### Advanced Persistent Threats 
+
+Advanced Persistent Threats (mostly geopolitical/state-linked, criminal, ideological, private offensive, ambiguous and/or unknown threat actors)
+- 2.0 **integrated** the full MITRE ATT&CK APT group framework (159 mapped APT groups)
+- 2.1 **added** country-of-origin attribution alongside threat activity classification
+- 2.2 **added** direct hyperlinks to the corresponding MITRE ATT&CK group pages for each specific APT
+- 2.3 **added** summarized intelligence descriptions based on MITRE ATT&CK framework data
+- 2.4 **added**  commonly observed attack techniques associated with each threat actor
+- 2.5 **added**  lists of the most likely targeted sectors and industries (e.g. finance, retail, telecommunications, government infrastructure)
+
+The integration of Advanced Persistent Threat intelligence improves attribution-oriented analysis by enabling direct correlation between threat actors, operational methodologies, targeted sectors, and geographic activity distribution. This reduces reliance on fragmented external intelligence sources while improving contextual visibility during investigative workflows.
+
+#### Conclusion of integration
 
 The second stage of development focused on integrating structured APT intelligence into the platform. This implementation incorporates the full MITRE ATT&CK APT framework, currently covering 159 threat groups across geopolitical, criminal, ideological, private offensive, ambiguous, and unattributed categories.
 
@@ -49,6 +66,10 @@ Geospatial correlation introduces another analytical layer. Infrastructure conce
 
 The broader goal of this integration is not simply visualization, but faster analytical transition from raw indicators toward attribution, prioritization, and operational awareness. By combining tactical infrastructure telemetry with structured threat actor intelligence, analysts can move more efficiently between low-level signals and higher-level investigative reasoning.
 
-The underlying data sources currently include public intelligence provided through MITRE ATT&CK, AbuseIPDB, URLhaus, and multiple public C2 intelligence feeds.
+The underlying data sources currently include public intelligence provided through MITRE ATT&CK, AbuseIPDB, URLhaus, and multiple public C2 intelligence feeds. Here is an example of a single APT in Brazil's capital. 
 
-![CTI WorldMonitor](feature2.jpg)
+![Malteiro](1774246673147.jpg)
+
+[Malteiro](https://attack.mitre.org/groups/G1026/) is a financially motivated criminal group that is likely based in Brazil and has been active since at least November 2019. The group operates and distributes the Mispadu banking trojan via a Malware-as-a-Service (MaaS) business model. Malteiro mainly targets victims throughout Latin America (particularly Mexico) and Europe (particularly Spain and Portugal).
+
+This is just one of the several dozens, reaching hundreds APTs localized and centralized within World Monitor and a feature I found to be essential for anyone looking to understand global intelligence better.
