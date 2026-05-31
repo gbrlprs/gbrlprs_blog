@@ -1,7 +1,10 @@
 ---
 title: "Bellingcat’s Archive 2025: How I completed all challenges in one day"
 date: 2026-05-26
-draft: false    
+draft: false
+tags: ["geopolitics", "technopolitics", "OSINT"]   
+categories: ["Cybersecurity Engineering Projects", "Geopolitical Intelligence Analysis" ]   
+
 ---
 # What is Bellingcat?
 

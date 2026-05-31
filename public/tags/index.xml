@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ㅤ</title>
+    <title>Tags on gbrlprs</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on ㅤ</description>
+    <description>Recent content in Tags on gbrlprs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2026 06:10:55 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Geopolitics</title>
+      <link>http://localhost:1313/tags/geopolitics/</link>
+      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/geopolitics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intelligence</title>
+      <link>http://localhost:1313/tags/intelligence/</link>
+      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/intelligence/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>http://localhost:1313/tags/osint/</link>
+      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/osint/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Technopolitics</title>
+      <link>http://localhost:1313/tags/technopolitics/</link>
+      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/technopolitics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Sun, 24 May 2026 02:27:08 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Engineering</title>
+      <link>http://localhost:1313/tags/engineering/</link>
+      <pubDate>Sun, 24 May 2026 02:27:08 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/engineering/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

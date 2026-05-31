@@ -2,12 +2,13 @@
 date = '2026-05-26T06:10:55-03:00'
 draft = false
 title = 'WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis'
+tags = ["geopolitics", "intelligence", "OSINT", "technopolitics"]
 +++
 
-![CTI WorldMonitor](feature2.jpg)
+![CTI WorldMonitor](feature4.png)
 
 ## Overview
-I have recently been contributing voluntary development work to World Monitor, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.
+I have have worked on the development of the viral World Monitor application, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.
 
 One of the recurring limitations within modern cyber threat intelligence is fragmentation. Malware infrastructure, infected hosts, indicators of compromise, and Advanced Persistent Threat (APT) activity are often distributed across separate platforms, feeds, and analytical layers. Tactical indicators tend to be consumed independently, while strategic attribution remains disconnected from the infrastructure generating those signals in real time.
 
@@ -66,10 +67,12 @@ Geospatial correlation introduces another analytical layer. Infrastructure conce
 
 The broader goal of this integration is not simply visualization, but faster analytical transition from raw indicators toward attribution, prioritization, and operational awareness. By combining tactical infrastructure telemetry with structured threat actor intelligence, analysts can move more efficiently between low-level signals and higher-level investigative reasoning.
 
-The underlying data sources currently include public intelligence provided through MITRE ATT&CK, AbuseIPDB, URLhaus, and multiple public C2 intelligence feeds. Here is an example of a single APT in Brazil's capital. 
+The underlying data sources currently include public intelligence provided through MITRE ATT&CK, AbuseIPDB, URLhaus, and multiple public C2 intelligence feeds. Here is an example of a single APT in Brazil's capital (keep in mind that all other features are deactivated for visual focus on the target):
 
 ![Malteiro](1774246673147.jpg)
 
 [Malteiro](https://attack.mitre.org/groups/G1026/) is a financially motivated criminal group that is likely based in Brazil and has been active since at least November 2019. The group operates and distributes the Mispadu banking trojan via a Malware-as-a-Service (MaaS) business model. Malteiro mainly targets victims throughout Latin America (particularly Mexico) and Europe (particularly Spain and Portugal).
 
 This is just one of the several dozens, reaching hundreds APTs localized and centralized within World Monitor and a feature I found to be essential for anyone looking to understand global intelligence better.
+
+You can find my Github contributions right here: [Github/WorldMonitor](https://github.com/gbrlprs/worldmonitor)

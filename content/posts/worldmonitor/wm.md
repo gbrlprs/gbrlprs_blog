@@ -2,6 +2,7 @@
 date = '2026-05-26T06:10:55-03:00'
 draft = false
 title = 'World Monitor: Integrating Cyber Threat Intelligence into Geospatial Analysis'
+tags = ["geopolitics", "intelligence", "OSINT", "technopolitics"]
 +++
 
 I have recently been contributing voluntary development work to World Monitor, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.

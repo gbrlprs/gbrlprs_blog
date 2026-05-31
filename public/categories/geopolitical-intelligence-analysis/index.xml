@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geopolitical Intelligence Analysis on gbrlprs</title>
+    <link>http://localhost:1313/categories/geopolitical-intelligence-analysis/</link>
+    <description>Recent content in Geopolitical Intelligence Analysis on gbrlprs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/geopolitical-intelligence-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bellingcat’s Archive 2025: How I completed all challenges in one day</title>
+      <link>http://localhost:1313/posts/bellingcat/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bellingcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/bellingcat/feature1.png" />
+    </item>
+    
+  </channel>
+</rss>

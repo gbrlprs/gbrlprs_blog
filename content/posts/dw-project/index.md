@@ -2,11 +2,12 @@
 date = '2026-05-24T02:27:08-03:00'
 draft = false
 title = 'I set up my resume on the deep web as a cyber threat intelligence project'
+tags = ["cybersecurity", "engineering"]  
 +++
 
 This project was not built to chase anonymity, nor to aestheticize the deep web. It exists as a practical exercise in understanding how threat infrastructure behaves when removed from indexed space.
 
-Tor hidden services impose constraints that are easy to describe but harder to internalize without direct contact: limited visibility, asymmetric information, fragile operational security, and an environment where small configuration choices leave disproportionate analytical traces. Within a Cyber Threat Intelligence (CTI) workflow, these constraints are not theoretical; they define what can and cannot be observed, inferred, or attributed.
+**TOR** hidden services impose constraints that are easy to describe but harder to internalize without direct contact: limited visibility, asymmetric information, fragile operational security, and an environment where small configuration choices leave disproportionate analytical traces. Within a **Cyber Threat Intelligence (CTI)** workflow, these constraints are not theoretical; they define what can and cannot be observed, inferred, or attributed.
 
 By deploying and hardening a minimal onion service, I was less interested in hosting content than in observing the boundaries of exposure: what remains visible despite protocol protections, how infrastructure decisions imply operator intent, and where anonymity degrades into identifiable pattern. This mirrors the conditions analysts face when examining leak sites, marketplaces, and auxiliary services across non-indexed networks.
 
@@ -20,7 +21,7 @@ In intelligence work, familiarity with an environment is not measured by proximi
 
 For those interested in accessing the artifact itself, the non-interactive onion service is available here:
 
-rv2ijwmksml5brayc6lev6zptjqimeu3ypapxrurwavdjtdwjueaqvad.onion
+**rv2ijwmksml5brayc6lev6zptjqimeu3ypapxrurwavdjtdwjueaqvad.onion**
 
 Key Tools Used:
 * **Tor Network** for hosting the hidden service.
