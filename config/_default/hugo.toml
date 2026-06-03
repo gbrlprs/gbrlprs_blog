@@ -5,7 +5,7 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://gbrlprs.ch/"
 defaultContentLanguage = "en"
-
+enableGitInfo = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -68,3 +68,6 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
