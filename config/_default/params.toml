@@ -67,8 +67,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   disableHeroImageFilter = false # only used when layout equals hero
 
 [article]
-  showDate = true #for some reason it wasn't showing on website but it was showing locally
-  showViews = true #same as above
+  showDate = true #lol
+  showViews = true #ls
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
@@ -87,7 +87,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true #same problem as showDate and showViews
+  showReadingTime = true
   showTableOfContents = true
   # showRelatedContent = true
   # relatedContentLimit = 3
@@ -96,21 +96,21 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTags = true # These will show if showTaxonomies is true.
   showCategoriesInSecondaryColor = false # This will change the color of category badges, so the user can better distinguish between the two. Only if showTaxonomies is true.
   showAuthorsBadges = false
-  showWordCount = true #same problem as showDate and showViews
+  showWordCount = true
   sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 
 [list]
-  showHero = false
+  showHero = true
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
-  showViews = false
+  showViews = true
   showLikes = false
-  showTableOfContents = false
+  showTableOfContents = true
   showCards = false
   orderByWeight = false
   groupByYear = true
@@ -123,7 +123,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [taxonomy]
   showTermCount = true
-  showHero = false
+  showHero = true
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
