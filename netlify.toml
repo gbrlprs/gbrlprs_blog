@@ -4,6 +4,7 @@ GO_VERSION = "1.26.2"
 HUGO_VERSION = "0.161.1"
 NODE_VERSION = "24.15.0"
 TZ = "Europe/Oslo"
+GIT_FETCH_DEPTH = "0"  # ADICIONE ESTA LINHA AQUI (Força o Netlify a ler datas e palavras)
 
 [build]
 publish = "public"
