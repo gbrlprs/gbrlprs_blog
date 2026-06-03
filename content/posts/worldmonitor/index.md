@@ -8,7 +8,7 @@ tags = ["geopolitics", "intelligence", "OSINT", "technopolitics"]
 ![CTI WorldMonitor](feature4.png)
 
 ## Overview
-I have have worked on the development of the viral World Monitor application, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.
+I have have worked on the development of the viral [World Monitor](https://www.worldmonitor.app) application, focusing on the integration of cyber threat intelligence into a geospatial analysis environment. The objective behind this work is to bridge infrastructure-level threat data with broader contextual intelligence, allowing cyber activity to be interpreted not only as isolated indicators, but also as part of larger operational and geopolitical patterns.
 
 One of the recurring limitations within modern cyber threat intelligence is fragmentation. Malware infrastructure, infected hosts, indicators of compromise, and Advanced Persistent Threat (APT) activity are often distributed across separate platforms, feeds, and analytical layers. Tactical indicators tend to be consumed independently, while strategic attribution remains disconnected from the infrastructure generating those signals in real time.
 
