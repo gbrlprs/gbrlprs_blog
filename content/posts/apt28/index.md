@@ -11,7 +11,7 @@ categories = ["Cyber Threat Intelligence Research"]
 # Why APT28 (Fancy Bear) Is a Credible Threat to Brazil's 2026 Presidential Election
 ## 1. Cyber Threat Intelligence Profile & Risk Assessment
 
-![APT28](feature.ppg)
+![APT28](feature.png)
 
 **Date:** 30 July 2026
 **Prepared by:** Independent Cyber Threat Intelligence Research
