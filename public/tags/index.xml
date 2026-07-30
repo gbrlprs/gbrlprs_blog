@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Wed, 03 Jun 2026 05:36:54 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2026 02:25:10 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>APTs</title>
+      <link>http://localhost:1313/tags/apts/</link>
+      <pubDate>Thu, 23 Jul 2026 01:08:09 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/apts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Thu, 23 Jul 2026 01:08:09 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>http://localhost:1313/tags/osint/</link>
+      <pubDate>Thu, 23 Jul 2026 01:08:09 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/osint/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Technopolitcs</title>
+      <link>http://localhost:1313/tags/technopolitcs/</link>
+      <pubDate>Thu, 23 Jul 2026 01:08:09 -0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/technopolitcs/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Geopolitics</title>
@@ -30,31 +70,11 @@
     </item>
     
     <item>
-      <title>OSINT</title>
-      <link>http://localhost:1313/tags/osint/</link>
-      <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/osint/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Technopolitics</title>
       <link>http://localhost:1313/tags/technopolitics/</link>
       <pubDate>Tue, 26 May 2026 06:10:55 -0300</pubDate>
       
       <guid>http://localhost:1313/tags/technopolitics/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cybersecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Sun, 24 May 2026 02:27:08 -0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
       
     </item>
