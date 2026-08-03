@@ -53,7 +53,7 @@ The investigation became less about searching directly and more about constructi
 5. Found the last two words of the title of the article.
 ![alt text](image-7.png)
 
-#### Tools used
+#### Tools used:
 - **TinEye**
 - **Google dorking**
 
