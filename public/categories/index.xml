@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Mon, 01 Jun 2026 07:03:40 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2026 02:25:10 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cyber Threat Intelligence Research</title>
+      <link>http://localhost:1313/categories/cyber-threat-intelligence-research/</link>
+      <pubDate>Thu, 23 Jul 2026 01:08:09 -0300</pubDate>
+      
+      <guid>http://localhost:1313/categories/cyber-threat-intelligence-research/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cybersecurity Engineering Projects</title>
