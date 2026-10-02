@@ -4,3 +4,30 @@
     word-break: keep-all !important;
     word-wrap: normal !important;
 }
+
+/* Força o fundo de todas as estruturas principais a ficar totalmente preto */
+html,
+body,
+.bg-neutral,
+.bg-neutral-50,
+.bg-neutral-100,
+.bg-neutral-800,
+.bg-neutral-900,
+.dark .dark\:bg-neutral-900,
+.dark .dark\:bg-neutral-800,
+main,
+#content,
+header,
+footer {
+    background-color: #000000 !important;
+    background-image: none !important; /* Remove qualquer tentativa de carregar imagens no fundo */
+}
+
+/* Garante que os cards dos seus artigos/projetos também fiquem totalmente pretos */
+article,
+.min-h-\[180px\],
+.bg-neutral-100\/50,
+.dark .dark\:bg-neutral-800\/50 {
+    background-color: #000000 !important;
+    border: 1px solid #1a1a1a !important; /* Adiciona uma borda sutil bem escura para os cards não sumirem totalmente no preto */
+}

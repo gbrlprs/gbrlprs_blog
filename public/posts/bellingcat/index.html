@@ -48,6 +48,12 @@
     
       
         
+          <link href="function_anonymous@proton.me" rel="me">
+        
+      
+    
+      
+        
           <link href="https://github.com/gbrlprs" rel="me">
         
       
@@ -80,22 +86,22 @@
 
   
   <meta property="og:url" content="http://localhost:1313/posts/bellingcat/">
-  <meta property="og:site_name" content="home">
-  <meta property="og:title" content="Bellingcat’s Archive 2025: How I completed all challenges in one day">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-05-26T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-06-01T07:03:40-03:00">
-    <meta property="article:tag" content="Geopolitics">
-    <meta property="article:tag" content="Technopolitics">
-    <meta property="article:tag" content="OSINT">
-    <meta property="og:image" content="http://localhost:1313/posts/bellingcat/feature1.png">
+	<meta property="og:site_name" content="home">
+	<meta property="og:title" content="Bellingcat’s Archive 2025: How I completed all challenges in one day">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-05-26T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-08-03T12:14:28-03:00">
+		<meta property="article:tag" content="Geopolitics">
+		<meta property="article:tag" content="Technopolitics">
+		<meta property="article:tag" content="OSINT">
+		<meta property="og:image" content="http://localhost:1313/posts/bellingcat/feature1.png">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/posts/bellingcat/feature1.png">
-  <meta name="twitter:title" content="Bellingcat’s Archive 2025: How I completed all challenges in one day">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/posts/bellingcat/feature1.png">
+	<meta name="twitter:title" content="Bellingcat’s Archive 2025: How I completed all challenges in one day">
 
   
   
@@ -142,8 +148,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eb3c567def6dd8a47523d0bb7cc30846fc51e6ce5ca706a2f21f182a50e22becfc150bbe72dce54b6d933c75d11ca9f0348b6cc894a413ec45fdceb194d68f00.css"
-    integrity="sha512-6zxWfe9t2KR1I9C7fMMIRvxR5s5cpwai8h8YKlDiK&#43;z8FQu&#43;ctzlS22TPHXRHKnwNItsyJSkE&#43;xF/c6xlNaPAA==">
+    href="/css/main.bundle.min.b3e089fbba3c5f9cbffee47a74ebd88c3e9fc1d79bd780756675342dd82b3d1c8cd434129f190177ab8f02ae5a784d55250ef6b1e9def65acb6d4912d4ec0d5d.css"
+    integrity="sha512-s&#43;CJ&#43;7o8X5y//uR6dOvYjD6fwdeb14B1ZnU0LdgrPRyM1DQSnxkBd6uPAq5aeE1VJQ72sene9lrLbUkS1OwNXQ==">
 
   
   
@@ -182,8 +188,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.17a5a9b48060ea4f92b736f95548015a5a155f9a4c46712c6c7a751b398eab6fa742f0db7c2b085269151c17894fa9468252fbf665527de606d077998e462aa3.js"
-      integrity="sha512-F6WptIBg6k&#43;Stzb5VUgBWloVX5pMRnEsbHp1GzmOq2&#43;nQvDbfCsIUmkVHBeJT6lGglL79mVSfeYG0HeZjkYqow=="
+      src="/js/main.bundle.min.ecde4393b7348405774ad47459b74f73673ea7e170d83b1858d04fa1ec8330281a5fb97d2d868e6411fbba964b8f2bc5b6dbabcc4115672779f264450dbd7f07.js"
+      integrity="sha512-7N5Dk7c0hAV3StR0WbdPc2c&#43;p&#43;Fw2DsYWNBPoeyDMCgaX7l9LYaOZBH7upZLjyvFtturzEEVZyd58mRFDb1/Bw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -263,7 +269,7 @@
     "dateCreated": "2026-05-26T00:00:00\u002b00:00",
     "datePublished": "2026-05-26T00:00:00\u002b00:00",
     
-    "dateModified": "2026-06-01T07:03:40-03:00",
+    "dateModified": "2026-08-03T12:14:28-03:00",
     
     "keywords": ["geopolitics","technopolitics","OSINT"],
     
@@ -298,6 +304,10 @@
 
 
 
+
+  
+    
+  
 
 
 
@@ -620,6 +630,23 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -667,21 +694,19 @@
 
 
 
-
   
   
   
-  <figure>
+  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
     <img
-      src="/posts/bellingcat/feature1_hu_805d9baf22f90918.png"
-      alt="Bellingcat’s Archive 2025: How I completed all challenges in one day"
+      src="/posts/bellingcat/feature1_hu_eb5c4935adecf6dc.png"
+      role="presentation"
       loading="eager"
       decoding="async"
       fetchpriority="high"
-      class="w-full rounded-lg single_hero_round nozoom"
+      class="w-full h-full nozoom object-cover"
       >
-    
-  </figure>
+  </div>
 
 
       
@@ -931,8 +956,8 @@
         width="96"
         height="96"
         alt="Gabriel Pires"
-        src="/52489619_4558179686529173779_hu_9064e260b15efdf8.jpg"
-        data-zoom-src="/52489619_4558179686529173779_hu_4c1f84186635cd95.jpg">
+        src="/Hm5ZlIE_494813028447052552_hu_1e458a36968059c.png"
+        data-zoom-src="/Hm5ZlIE_494813028447052552_hu_4ba01d971965e17b.png">
     
   
   <div class="place-self-center">
@@ -949,6 +974,23 @@
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
+    
+      
+        
+        <a
+          class="email-link hover:text-primary-700 dark:hover:text-primary-400"
+          href="#"
+          
+            data-email="ZnVuY3Rpb25fYW5vbnltb3VzQHByb3Rvbi5tZQ=="
+          
+          target="_blank"
+          aria-label="Email"
+          title="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></span></a
+        >
+      
     
       
         
@@ -1171,6 +1213,106 @@
 </details>
 
 
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = true
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
 
           </div>
         </div>
@@ -1225,8 +1367,8 @@
     alt="alt text"
     width="1638"
     height="916"
-    src="/posts/bellingcat/image-8_hu_248eda60b08de02.png"
-    srcset="/posts/bellingcat/image-8_hu_248eda60b08de02.png 800w, /posts/bellingcat/image-8_hu_6597ac0ae0662c91.png 1280w"
+    src="/posts/bellingcat/image-8_hu_5d6d559869022021.png"
+    srcset="/posts/bellingcat/image-8_hu_5d6d559869022021.png 800w, /posts/bellingcat/image-8_hu_3d0a0eb8956e459d.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-8.png"></figure>
 
@@ -1272,8 +1414,8 @@ The challenge highlighted how geolocation increasingly depends less on obvious i
     alt="alt text"
     width="1394"
     height="908"
-    src="/posts/bellingcat/image-6_hu_63e998a4a2f1654c.png"
-    srcset="/posts/bellingcat/image-6_hu_63e998a4a2f1654c.png 800w, /posts/bellingcat/image-6_hu_d2adb6a3ef0eb3ec.png 1280w"
+    src="/posts/bellingcat/image-6_hu_8747b3c980672816.png"
+    srcset="/posts/bellingcat/image-6_hu_8747b3c980672816.png 800w, /posts/bellingcat/image-6_hu_66d56ae62125032b.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-6.png"></figure>
 
@@ -1295,8 +1437,8 @@ The investigation became less about searching directly and more about constructi
     alt="alt text"
     width="988"
     height="657"
-    src="/posts/bellingcat/image-7_hu_11a48184abba760f.png"
-    srcset="/posts/bellingcat/image-7_hu_11a48184abba760f.png 800w, /posts/bellingcat/image-7.png 1280w"
+    src="/posts/bellingcat/image-7_hu_28cb0b7e116221bb.png"
+    srcset="/posts/bellingcat/image-7_hu_28cb0b7e116221bb.png 800w, /posts/bellingcat/image-7.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-7.png"></figure>
 </li>
@@ -1392,8 +1534,8 @@ The ambassador came first. He conveyed a message of cooperation and friendship b
     alt="alt text"
     width="1244"
     height="661"
-    src="/posts/bellingcat/image-3_hu_d20d390a257dd2e0.png"
-    srcset="/posts/bellingcat/image-3_hu_d20d390a257dd2e0.png 800w, /posts/bellingcat/image-3.png 1280w"
+    src="/posts/bellingcat/image-3_hu_d91ba7df170b298f.png"
+    srcset="/posts/bellingcat/image-3_hu_d91ba7df170b298f.png 800w, /posts/bellingcat/image-3.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-3.png"></figure>
 
@@ -1442,8 +1584,8 @@ The ambassador came first. He conveyed a message of cooperation and friendship b
     alt="alt text"
     width="1532"
     height="911"
-    src="/posts/bellingcat/image-4_hu_f9a13337c6da7a4e.png"
-    srcset="/posts/bellingcat/image-4_hu_f9a13337c6da7a4e.png 800w, /posts/bellingcat/image-4_hu_f40b439eebbac7da.png 1280w"
+    src="/posts/bellingcat/image-4_hu_5be9a4128a2f83d3.png"
+    srcset="/posts/bellingcat/image-4_hu_5be9a4128a2f83d3.png 800w, /posts/bellingcat/image-4_hu_aba5cf33ef76eab9.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-4.png"></figure>
 
@@ -1465,8 +1607,8 @@ The ambassador came first. He conveyed a message of cooperation and friendship b
     alt="alt text"
     width="1140"
     height="649"
-    src="/posts/bellingcat/image-1_hu_a208eba63a7ba078.png"
-    srcset="/posts/bellingcat/image-1_hu_a208eba63a7ba078.png 800w, /posts/bellingcat/image-1.png 1280w"
+    src="/posts/bellingcat/image-1_hu_4b1168053e84fd69.png"
+    srcset="/posts/bellingcat/image-1_hu_4b1168053e84fd69.png 800w, /posts/bellingcat/image-1.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-1.png"></figure>
 
@@ -1480,8 +1622,8 @@ The ambassador came first. He conveyed a message of cooperation and friendship b
     alt="alt text"
     width="1173"
     height="578"
-    src="/posts/bellingcat/image_hu_58895078abc13bcb.png"
-    srcset="/posts/bellingcat/image_hu_58895078abc13bcb.png 800w, /posts/bellingcat/image.png 1280w"
+    src="/posts/bellingcat/image_hu_68f99ca82be7d59c.png"
+    srcset="/posts/bellingcat/image_hu_68f99ca82be7d59c.png 800w, /posts/bellingcat/image.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image.png"></figure>
 </li>
@@ -1497,8 +1639,8 @@ The ambassador came first. He conveyed a message of cooperation and friendship b
     alt="alt text"
     width="1708"
     height="739"
-    src="/posts/bellingcat/image-2_hu_ee9994a9560f05e0.png"
-    srcset="/posts/bellingcat/image-2_hu_ee9994a9560f05e0.png 800w, /posts/bellingcat/image-2_hu_ec8094e8bcd0c3c8.png 1280w"
+    src="/posts/bellingcat/image-2_hu_9a6754d85f346014.png"
+    srcset="/posts/bellingcat/image-2_hu_9a6754d85f346014.png 800w, /posts/bellingcat/image-2_hu_b705d5501fac5527.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/image-2.png"></figure>
 </li>
@@ -1529,8 +1671,8 @@ This is a great view into the world of intelligence gathering, analysis and conc
     alt="Archives"
     width="1597"
     height="985"
-    src="/posts/bellingcat/feature1_hu_2fb6f5b480d9ba5f.png"
-    srcset="/posts/bellingcat/feature1_hu_2fb6f5b480d9ba5f.png 800w, /posts/bellingcat/feature1_hu_615d035fee44de11.png 1280w"
+    src="/posts/bellingcat/feature1_hu_199c21b0c23d7610.png"
+    srcset="/posts/bellingcat/feature1_hu_199c21b0c23d7610.png 800w, /posts/bellingcat/feature1_hu_75e5c07c71a3c97d.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/bellingcat/feature1.png"></figure>
 
@@ -1734,8 +1876,6 @@ This is a great view into the world of intelligence gathering, analysis and conc
 
       </main><footer id="site-footer" class="py-10 print:hidden">
   
-  
-    
   
   <div class="flex items-center justify-between">
     

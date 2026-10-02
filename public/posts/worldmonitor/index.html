@@ -48,6 +48,12 @@
     
       
         
+          <link href="function_anonymous@proton.me" rel="me">
+        
+      
+    
+      
+        
           <link href="https://github.com/gbrlprs" rel="me">
         
       
@@ -80,23 +86,23 @@
 
   
   <meta property="og:url" content="http://localhost:1313/posts/worldmonitor/">
-  <meta property="og:site_name" content="home">
-  <meta property="og:title" content="WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-05-26T06:10:55-03:00">
-    <meta property="article:modified_time" content="2026-06-03T05:36:54-03:00">
-    <meta property="article:tag" content="Geopolitics">
-    <meta property="article:tag" content="Intelligence">
-    <meta property="article:tag" content="OSINT">
-    <meta property="article:tag" content="Technopolitics">
-    <meta property="og:image" content="http://localhost:1313/posts/worldmonitor/feature2.jpg">
+	<meta property="og:site_name" content="home">
+	<meta property="og:title" content="WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-05-26T06:10:55-03:00">
+		<meta property="article:modified_time" content="2026-06-03T05:36:54-03:00">
+		<meta property="article:tag" content="Geopolitics">
+		<meta property="article:tag" content="Intelligence">
+		<meta property="article:tag" content="OSINT">
+		<meta property="article:tag" content="Technopolitics">
+		<meta property="og:image" content="http://localhost:1313/posts/worldmonitor/feature2.jpg">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/posts/worldmonitor/feature2.jpg">
-  <meta name="twitter:title" content="WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/posts/worldmonitor/feature2.jpg">
+	<meta name="twitter:title" content="WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis">
 
   
   
@@ -143,8 +149,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eb3c567def6dd8a47523d0bb7cc30846fc51e6ce5ca706a2f21f182a50e22becfc150bbe72dce54b6d933c75d11ca9f0348b6cc894a413ec45fdceb194d68f00.css"
-    integrity="sha512-6zxWfe9t2KR1I9C7fMMIRvxR5s5cpwai8h8YKlDiK&#43;z8FQu&#43;ctzlS22TPHXRHKnwNItsyJSkE&#43;xF/c6xlNaPAA==">
+    href="/css/main.bundle.min.b3e089fbba3c5f9cbffee47a74ebd88c3e9fc1d79bd780756675342dd82b3d1c8cd434129f190177ab8f02ae5a784d55250ef6b1e9def65acb6d4912d4ec0d5d.css"
+    integrity="sha512-s&#43;CJ&#43;7o8X5y//uR6dOvYjD6fwdeb14B1ZnU0LdgrPRyM1DQSnxkBd6uPAq5aeE1VJQ72sene9lrLbUkS1OwNXQ==">
 
   
   
@@ -183,8 +189,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.17a5a9b48060ea4f92b736f95548015a5a155f9a4c46712c6c7a751b398eab6fa742f0db7c2b085269151c17894fa9468252fbf665527de606d077998e462aa3.js"
-      integrity="sha512-F6WptIBg6k&#43;Stzb5VUgBWloVX5pMRnEsbHp1GzmOq2&#43;nQvDbfCsIUmkVHBeJT6lGglL79mVSfeYG0HeZjkYqow=="
+      src="/js/main.bundle.min.ecde4393b7348405774ad47459b74f73673ea7e170d83b1858d04fa1ec8330281a5fb97d2d868e6411fbba964b8f2bc5b6dbabcc4115672779f264450dbd7f07.js"
+      integrity="sha512-7N5Dk7c0hAV3StR0WbdPc2c&#43;p&#43;Fw2DsYWNBPoeyDMCgaX7l9LYaOZBH7upZLjyvFtturzEEVZyd58mRFDb1/Bw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -299,6 +305,10 @@
 
 
 
+
+  
+    
+  
 
 
 
@@ -621,6 +631,23 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -668,21 +695,19 @@
 
 
 
-
   
   
   
-  <figure>
+  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
     <img
-      src="/posts/worldmonitor/feature2_hu_982205892f572985.jpg"
-      alt="WorldMonitor: Integrating Cyber Threat Intelligence Into Geospatial Analysis"
+      src="/posts/worldmonitor/feature2_hu_c78248f477323e27.jpg"
+      role="presentation"
       loading="eager"
       decoding="async"
       fetchpriority="high"
-      class="w-full rounded-lg single_hero_round nozoom"
+      class="w-full h-full nozoom object-cover"
       >
-    
-  </figure>
+  </div>
 
 
       
@@ -940,8 +965,8 @@
         width="96"
         height="96"
         alt="Gabriel Pires"
-        src="/52489619_4558179686529173779_hu_9064e260b15efdf8.jpg"
-        data-zoom-src="/52489619_4558179686529173779_hu_4c1f84186635cd95.jpg">
+        src="/Hm5ZlIE_494813028447052552_hu_1e458a36968059c.png"
+        data-zoom-src="/Hm5ZlIE_494813028447052552_hu_4ba01d971965e17b.png">
     
   
   <div class="place-self-center">
@@ -958,6 +983,23 @@
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
+    
+      
+        
+        <a
+          class="email-link hover:text-primary-700 dark:hover:text-primary-400"
+          href="#"
+          
+            data-email="ZnVuY3Rpb25fYW5vbnltb3VzQHByb3Rvbi5tZQ=="
+          
+          target="_blank"
+          aria-label="Email"
+          title="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></span></a
+        >
+      
     
       
         
@@ -1112,6 +1154,106 @@
 </details>
 
 
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = true
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
 
           </div>
         </div>
@@ -1130,8 +1272,8 @@
     alt="CTI WorldMonitor"
     width="3739"
     height="1764"
-    src="/posts/worldmonitor/feature4_hu_567e38e0ac6ba8ad.png"
-    srcset="/posts/worldmonitor/feature4_hu_567e38e0ac6ba8ad.png 800w, /posts/worldmonitor/feature4_hu_b7d4c7d64b3df062.png 1280w"
+    src="/posts/worldmonitor/feature4_hu_cefffd0682b8731c.png"
+    srcset="/posts/worldmonitor/feature4_hu_cefffd0682b8731c.png 800w, /posts/worldmonitor/feature4_hu_4aa357c6a4346ddd.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/worldmonitor/feature4.png"></figure>
 
@@ -1232,8 +1374,8 @@
     alt="Malteiro"
     width="2048"
     height="881"
-    src="/posts/worldmonitor/1774246673147_hu_f823eccb9c3e4bb3.jpg"
-    srcset="/posts/worldmonitor/1774246673147_hu_f823eccb9c3e4bb3.jpg 800w, /posts/worldmonitor/1774246673147_hu_ae33f65a6eab379b.jpg 1280w"
+    src="/posts/worldmonitor/1774246673147_hu_64603d08ef932fd5.jpg"
+    srcset="/posts/worldmonitor/1774246673147_hu_64603d08ef932fd5.jpg 800w, /posts/worldmonitor/1774246673147_hu_eda64fc499e3265a.jpg 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/worldmonitor/1774246673147.jpg"></figure>
 <p><a href="https://attack.mitre.org/groups/G1026/"  target="_blank" rel="noreferrer">Malteiro</a> is a financially motivated criminal group that is likely based in Brazil and has been active since at least November 2019. The group operates and distributes the Mispadu banking trojan via a Malware-as-a-Service (MaaS) business model. Malteiro mainly targets victims throughout Latin America (particularly Mexico) and Europe (particularly Spain and Portugal).</p>
@@ -1440,8 +1582,6 @@
 
       </main><footer id="site-footer" class="py-10 print:hidden">
   
-  
-    
   
   <div class="flex items-center justify-between">
     

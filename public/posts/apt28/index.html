@@ -48,6 +48,12 @@
     
       
         
+          <link href="function_anonymous@proton.me" rel="me">
+        
+      
+    
+      
+        
           <link href="https://github.com/gbrlprs" rel="me">
         
       
@@ -80,22 +86,22 @@
 
   
   <meta property="og:url" content="http://localhost:1313/posts/apt28/">
-  <meta property="og:site_name" content="home">
-  <meta property="og:title" content="APT28 - Biggest Potential Cyber Threat to Brazil&#39;s 2026 Elections">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-07-23T01:08:09-03:00">
-    <meta property="article:modified_time" content="2026-07-30T02:10:41-03:00">
-    <meta property="article:tag" content="Cybersecurity">
-    <meta property="article:tag" content="APTs">
-    <meta property="article:tag" content="Technopolitcs">
-    <meta property="og:image" content="http://localhost:1313/posts/apt28/feature.png">
+	<meta property="og:site_name" content="home">
+	<meta property="og:title" content="APT28 - Biggest Potential Cyber Threat to Brazil&#39;s 2026 Elections">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-07-23T01:08:09-03:00">
+		<meta property="article:modified_time" content="2026-07-30T02:10:41-03:00">
+		<meta property="article:tag" content="Cybersecurity">
+		<meta property="article:tag" content="APTs">
+		<meta property="article:tag" content="Technopolitcs">
+		<meta property="og:image" content="http://localhost:1313/posts/apt28/feature.png">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/posts/apt28/feature.png">
-  <meta name="twitter:title" content="APT28 - Biggest Potential Cyber Threat to Brazil&#39;s 2026 Elections">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/posts/apt28/feature.png">
+	<meta name="twitter:title" content="APT28 - Biggest Potential Cyber Threat to Brazil&#39;s 2026 Elections">
 
   
   
@@ -142,8 +148,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eb3c567def6dd8a47523d0bb7cc30846fc51e6ce5ca706a2f21f182a50e22becfc150bbe72dce54b6d933c75d11ca9f0348b6cc894a413ec45fdceb194d68f00.css"
-    integrity="sha512-6zxWfe9t2KR1I9C7fMMIRvxR5s5cpwai8h8YKlDiK&#43;z8FQu&#43;ctzlS22TPHXRHKnwNItsyJSkE&#43;xF/c6xlNaPAA==">
+    href="/css/main.bundle.min.b3e089fbba3c5f9cbffee47a74ebd88c3e9fc1d79bd780756675342dd82b3d1c8cd434129f190177ab8f02ae5a784d55250ef6b1e9def65acb6d4912d4ec0d5d.css"
+    integrity="sha512-s&#43;CJ&#43;7o8X5y//uR6dOvYjD6fwdeb14B1ZnU0LdgrPRyM1DQSnxkBd6uPAq5aeE1VJQ72sene9lrLbUkS1OwNXQ==">
 
   
   
@@ -182,8 +188,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.17a5a9b48060ea4f92b736f95548015a5a155f9a4c46712c6c7a751b398eab6fa742f0db7c2b085269151c17894fa9468252fbf665527de606d077998e462aa3.js"
-      integrity="sha512-F6WptIBg6k&#43;Stzb5VUgBWloVX5pMRnEsbHp1GzmOq2&#43;nQvDbfCsIUmkVHBeJT6lGglL79mVSfeYG0HeZjkYqow=="
+      src="/js/main.bundle.min.ecde4393b7348405774ad47459b74f73673ea7e170d83b1858d04fa1ec8330281a5fb97d2d868e6411fbba964b8f2bc5b6dbabcc4115672779f264450dbd7f07.js"
+      integrity="sha512-7N5Dk7c0hAV3StR0WbdPc2c&#43;p&#43;Fw2DsYWNBPoeyDMCgaX7l9LYaOZBH7upZLjyvFtturzEEVZyd58mRFDb1/Bw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -298,6 +304,10 @@
 
 
 
+
+  
+    
+  
 
 
 
@@ -620,6 +630,23 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -667,21 +694,19 @@
 
 
 
-
   
   
   
-  <figure>
+  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
     <img
-      src="/posts/apt28/feature_hu_926a4ca071079590.png"
-      alt="APT28 - Biggest Potential Cyber Threat to Brazil&#39;s 2026 Elections"
+      src="/posts/apt28/feature_hu_e0cd7770441be580.png"
+      role="presentation"
       loading="eager"
       decoding="async"
       fetchpriority="high"
-      class="w-full rounded-lg single_hero_round nozoom"
+      class="w-full h-full nozoom object-cover"
       >
-    
-  </figure>
+  </div>
 
 
       
@@ -926,8 +951,8 @@
         width="96"
         height="96"
         alt="Gabriel Pires"
-        src="/52489619_4558179686529173779_hu_9064e260b15efdf8.jpg"
-        data-zoom-src="/52489619_4558179686529173779_hu_4c1f84186635cd95.jpg">
+        src="/Hm5ZlIE_494813028447052552_hu_1e458a36968059c.png"
+        data-zoom-src="/Hm5ZlIE_494813028447052552_hu_4ba01d971965e17b.png">
     
   
   <div class="place-self-center">
@@ -944,6 +969,23 @@
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
+    
+      
+        
+        <a
+          class="email-link hover:text-primary-700 dark:hover:text-primary-400"
+          href="#"
+          
+            data-email="ZnVuY3Rpb25fYW5vbnltb3VzQHByb3Rvbi5tZQ=="
+          
+          target="_blank"
+          aria-label="Email"
+          title="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></span></a
+        >
+      
     
       
         
@@ -1190,6 +1232,106 @@
 </details>
 
 
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = true
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
 
           </div>
         </div>
@@ -1208,8 +1350,8 @@
     alt="banner"
     width="1422"
     height="1106"
-    src="/posts/apt28/feature2_hu_505be8c9066f16fb.png"
-    srcset="/posts/apt28/feature2_hu_505be8c9066f16fb.png 800w, /posts/apt28/feature2_hu_5d339362d181fb14.png 1280w"
+    src="/posts/apt28/feature2_hu_9a9bfb5bf9625c78.png"
+    srcset="/posts/apt28/feature2_hu_9a9bfb5bf9625c78.png 800w, /posts/apt28/feature2_hu_f143e5164585cf08.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/apt28/feature2.png"></figure>
 
@@ -1240,8 +1382,8 @@
     alt="APT28"
     width="1421"
     height="1107"
-    src="/posts/apt28/feature_hu_6061fce4552a1c6d.png"
-    srcset="/posts/apt28/feature_hu_6061fce4552a1c6d.png 800w, /posts/apt28/feature_hu_8cf1b8dc9c23fcf0.png 1280w"
+    src="/posts/apt28/feature_hu_6ec29e7c66b0a54a.png"
+    srcset="/posts/apt28/feature_hu_6ec29e7c66b0a54a.png 800w, /posts/apt28/feature_hu_a1d4cd42c5197d94.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/apt28/feature.png"></figure>
 <p><strong>Date:</strong> 30 July 2026
@@ -1304,66 +1446,66 @@
 </h3>
 <p>Few threat actors have accumulated as many industry names, a direct consequence of two decades of independent tracking by different vendors and governments before everyone converged on the fact that they were watching the same group. <cite index="33-1">MITRE ATT&amp;CK lists associated names including IRON TWILIGHT, SNAKEMACKEREL, Swallowtail, Group 74, Sednit, Sofacy, Pawn Storm, Fancy Bear, STRONTIUM, Tsar Team, Threat Group-4127 (TG-4127), Forest Blizzard, FROZENLAKE, and GruesomeLarch</cite>.</p>
 <table>
-  <thead>
-      <tr>
-          <th>Vendor / Government</th>
-          <th>Name used</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>CrowdStrike</td>
-          <td>Fancy Bear</td>
-      </tr>
-      <tr>
-          <td>Kaspersky</td>
-          <td>Sofacy / Sofacy Group</td>
-      </tr>
-      <tr>
-          <td>ESET</td>
-          <td>Sednit</td>
-      </tr>
-      <tr>
-          <td>Microsoft</td>
-          <td>STRONTIUM → <strong>Forest Blizzard</strong> (current)</td>
-      </tr>
-      <tr>
-          <td>Trend Micro</td>
-          <td>Pawn Storm</td>
-      </tr>
-      <tr>
-          <td>Secureworks</td>
-          <td>IRON TWILIGHT</td>
-      </tr>
-      <tr>
-          <td>Volexity</td>
-          <td>GruesomeLarch</td>
-      </tr>
-      <tr>
-          <td>Palo Alto Unit 42</td>
-          <td>Fighting Ursa</td>
-      </tr>
-      <tr>
-          <td>IBM X-Force</td>
-          <td>ITG05</td>
-      </tr>
-      <tr>
-          <td>Proofpoint</td>
-          <td>TA422</td>
-      </tr>
-      <tr>
-          <td>Recorded Future / NCSC-UK</td>
-          <td>BlueDelta</td>
-      </tr>
-      <tr>
-          <td>CERT-UA (Ukraine)</td>
-          <td>UAC-0001 / UAC-0028 / UAC-0063</td>
-      </tr>
-      <tr>
-          <td>U.S. government (joint advisories)</td>
-          <td>APT28</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Vendor / Government</th>
+					<th>Name used</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>CrowdStrike</td>
+					<td>Fancy Bear</td>
+			</tr>
+			<tr>
+					<td>Kaspersky</td>
+					<td>Sofacy / Sofacy Group</td>
+			</tr>
+			<tr>
+					<td>ESET</td>
+					<td>Sednit</td>
+			</tr>
+			<tr>
+					<td>Microsoft</td>
+					<td>STRONTIUM → <strong>Forest Blizzard</strong> (current)</td>
+			</tr>
+			<tr>
+					<td>Trend Micro</td>
+					<td>Pawn Storm</td>
+			</tr>
+			<tr>
+					<td>Secureworks</td>
+					<td>IRON TWILIGHT</td>
+			</tr>
+			<tr>
+					<td>Volexity</td>
+					<td>GruesomeLarch</td>
+			</tr>
+			<tr>
+					<td>Palo Alto Unit 42</td>
+					<td>Fighting Ursa</td>
+			</tr>
+			<tr>
+					<td>IBM X-Force</td>
+					<td>ITG05</td>
+			</tr>
+			<tr>
+					<td>Proofpoint</td>
+					<td>TA422</td>
+			</tr>
+			<tr>
+					<td>Recorded Future / NCSC-UK</td>
+					<td>BlueDelta</td>
+			</tr>
+			<tr>
+					<td>CERT-UA (Ukraine)</td>
+					<td>UAC-0001 / UAC-0028 / UAC-0063</td>
+			</tr>
+			<tr>
+					<td>U.S. government (joint advisories)</td>
+					<td>APT28</td>
+			</tr>
+	</tbody>
 </table>
 <p>Institutionally, APT28 is attributed to <strong>Russia&rsquo;s GRU (General Staff Main Intelligence Directorate), 85th Main Special Service Center (GTsSS), military unit 26165</strong> [9][33]. It is operationally distinct from, but occasionally works alongside, <strong>GRU Unit 74455 (&ldquo;Sandworm&rdquo;)</strong>, which <cite index="33-1">assisted with some of the 2014–2018 operations against WADA and related anti-doping targets</cite>, and from <strong>APT29 (&ldquo;Cozy Bear&rdquo;)</strong>, a separate Russian group linked to the SVR foreign intelligence service that was independently present in the 2016 DNC compromise. Section 6.3 discusses these boundaries in more depth.</p>
 
@@ -1503,94 +1645,94 @@
     
 </h3>
 <table>
-  <thead>
-      <tr>
-          <th>Tool / Malware</th>
-          <th>Type</th>
-          <th>Function</th>
-          <th>Source</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>X-Agent / CHOPSTICK</td>
-          <td>Modular implant</td>
-          <td>Keylogging, screen capture, exfiltration; historically ported across Windows/Linux/mobile</td>
-          <td>[39][50]</td>
-      </tr>
-      <tr>
-          <td>X-Tunnel</td>
-          <td>Network tool</td>
-          <td>Encrypted tunneling/proxy for C2</td>
-          <td>[50]</td>
-      </tr>
-      <tr>
-          <td>Seduploader / Sedreco</td>
-          <td>Downloader</td>
-          <td>First-stage loader; fingerprints sandboxes to avoid analysis; XOR string obfuscation</td>
-          <td>[43]</td>
-      </tr>
-      <tr>
-          <td>Zebrocy</td>
-          <td>Downloader/backdoor</td>
-          <td>Delphi/Go/C# variants, broad indiscriminate targeting</td>
-          <td>[39]</td>
-      </tr>
-      <tr>
-          <td>LoJax</td>
-          <td>UEFI rootkit</td>
-          <td>First in-the-wild UEFI rootkit publicly documented; motherboard-firmware persistence</td>
-          <td>[39]</td>
-      </tr>
-      <tr>
-          <td>Drovorub</td>
-          <td>Linux rootkit suite</td>
-          <td>Kernel-module rootkit + implant + C2 server + port-forwarding tool</td>
-          <td>[8]</td>
-      </tr>
-      <tr>
-          <td>GooseEgg</td>
-          <td>Post-exploitation tool</td>
-          <td>Exploits Print Spooler CVE-2022-38028 for privilege escalation</td>
-          <td>[131]</td>
-      </tr>
-      <tr>
-          <td>HEADLACE</td>
-          <td>Backdoor</td>
-          <td>Delivered via malicious shortcuts and batch/PowerShell scripts</td>
-          <td>[9]</td>
-      </tr>
-      <tr>
-          <td>MASEPIE</td>
-          <td>Python backdoor</td>
-          <td>File transfer and remote command execution over an encrypted channel</td>
-          <td>[9]</td>
-      </tr>
-      <tr>
-          <td>OCEANMAP / STEELHOOK</td>
-          <td>Credential stealers</td>
-          <td>Harvest stored Chrome/Edge credentials and browser data</td>
-          <td>[9]</td>
-      </tr>
-      <tr>
-          <td>Impacket, PsExec, Certipy, ADExplorer</td>
-          <td>Open-source / legit admin tools (abused)</td>
-          <td>Lateral movement, Active Directory Certificate Services abuse, AD enumeration</td>
-          <td>[9]</td>
-      </tr>
-      <tr>
-          <td>Get-GPPPassword.py, ldap-dump.py</td>
-          <td>Open-source scripts</td>
-          <td>Recovering plaintext Group Policy Preferences passwords; LDAP enumeration</td>
-          <td>[9]</td>
-      </tr>
-      <tr>
-          <td>CompuTrace/Computrace abuse</td>
-          <td>BIOS anti-theft feature</td>
-          <td>Abused as a persistence mechanism</td>
-          <td>[50]</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Tool / Malware</th>
+					<th>Type</th>
+					<th>Function</th>
+					<th>Source</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>X-Agent / CHOPSTICK</td>
+					<td>Modular implant</td>
+					<td>Keylogging, screen capture, exfiltration; historically ported across Windows/Linux/mobile</td>
+					<td>[39][50]</td>
+			</tr>
+			<tr>
+					<td>X-Tunnel</td>
+					<td>Network tool</td>
+					<td>Encrypted tunneling/proxy for C2</td>
+					<td>[50]</td>
+			</tr>
+			<tr>
+					<td>Seduploader / Sedreco</td>
+					<td>Downloader</td>
+					<td>First-stage loader; fingerprints sandboxes to avoid analysis; XOR string obfuscation</td>
+					<td>[43]</td>
+			</tr>
+			<tr>
+					<td>Zebrocy</td>
+					<td>Downloader/backdoor</td>
+					<td>Delphi/Go/C# variants, broad indiscriminate targeting</td>
+					<td>[39]</td>
+			</tr>
+			<tr>
+					<td>LoJax</td>
+					<td>UEFI rootkit</td>
+					<td>First in-the-wild UEFI rootkit publicly documented; motherboard-firmware persistence</td>
+					<td>[39]</td>
+			</tr>
+			<tr>
+					<td>Drovorub</td>
+					<td>Linux rootkit suite</td>
+					<td>Kernel-module rootkit + implant + C2 server + port-forwarding tool</td>
+					<td>[8]</td>
+			</tr>
+			<tr>
+					<td>GooseEgg</td>
+					<td>Post-exploitation tool</td>
+					<td>Exploits Print Spooler CVE-2022-38028 for privilege escalation</td>
+					<td>[131]</td>
+			</tr>
+			<tr>
+					<td>HEADLACE</td>
+					<td>Backdoor</td>
+					<td>Delivered via malicious shortcuts and batch/PowerShell scripts</td>
+					<td>[9]</td>
+			</tr>
+			<tr>
+					<td>MASEPIE</td>
+					<td>Python backdoor</td>
+					<td>File transfer and remote command execution over an encrypted channel</td>
+					<td>[9]</td>
+			</tr>
+			<tr>
+					<td>OCEANMAP / STEELHOOK</td>
+					<td>Credential stealers</td>
+					<td>Harvest stored Chrome/Edge credentials and browser data</td>
+					<td>[9]</td>
+			</tr>
+			<tr>
+					<td>Impacket, PsExec, Certipy, ADExplorer</td>
+					<td>Open-source / legit admin tools (abused)</td>
+					<td>Lateral movement, Active Directory Certificate Services abuse, AD enumeration</td>
+					<td>[9]</td>
+			</tr>
+			<tr>
+					<td>Get-GPPPassword.py, ldap-dump.py</td>
+					<td>Open-source scripts</td>
+					<td>Recovering plaintext Group Policy Preferences passwords; LDAP enumeration</td>
+					<td>[9]</td>
+			</tr>
+			<tr>
+					<td>CompuTrace/Computrace abuse</td>
+					<td>BIOS anti-theft feature</td>
+					<td>Abused as a persistence mechanism</td>
+					<td>[50]</td>
+			</tr>
+	</tbody>
 </table>
 
 <h3 class="relative group">5.3 Infrastructure Characteristics
@@ -1628,160 +1770,160 @@
 </h3>
 <p>The following mapping draws primarily on the MITRE ATT&amp;CK-tagged activity documented in the 2025 joint advisory [9], supplemented by additional techniques documented elsewhere in this profile.</p>
 <table>
-  <thead>
-      <tr>
-          <th>Tactic</th>
-          <th>Technique</th>
-          <th>ID</th>
-          <th>Observed Use</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Reconnaissance</td>
-          <td>Gather Victim Org Information</td>
-          <td>T1591</td>
-          <td>Reconnaissance of target cybersecurity departments and business partners</td>
-      </tr>
-      <tr>
-          <td>Resource Development</td>
-          <td>Compromise Accounts (Email/Cloud)</td>
-          <td>T1586.002/.003</td>
-          <td>Sending phishing from compromised legitimate accounts</td>
-      </tr>
-      <tr>
-          <td>Initial Access</td>
-          <td>Phishing</td>
-          <td>T1566</td>
-          <td>Credential-harvesting links and malware-laden attachments</td>
-      </tr>
-      <tr>
-          <td>Initial Access</td>
-          <td>Trusted Relationship</td>
-          <td>T1199</td>
-          <td>Pivoting through partners with business ties to the primary target</td>
-      </tr>
-      <tr>
-          <td>Initial Access</td>
-          <td>Exploit Public-Facing Application</td>
-          <td>T1190</td>
-          <td>Outlook, Roundcube, Cisco IOS, WinRAR CVEs</td>
-      </tr>
-      <tr>
-          <td>Initial Access</td>
-          <td>External Remote Services</td>
-          <td>T1133</td>
-          <td>Corporate VPN exploitation</td>
-      </tr>
-      <tr>
-          <td>Execution</td>
-          <td>Command and Scripting Interpreter</td>
-          <td>T1059 (.001/.003/.005/.006)</td>
-          <td>PowerShell, BAT, VBScript, Python payloads</td>
-      </tr>
-      <tr>
-          <td>Persistence</td>
-          <td>Boot/Logon Autostart (Registry Run Keys)</td>
-          <td>T1547.001</td>
-          <td>Persistence via run keys</td>
-      </tr>
-      <tr>
-          <td>Persistence</td>
-          <td>Pre-OS Boot: System Firmware</td>
-          <td>T1542.001</td>
-          <td>LoJax UEFI rootkit</td>
-      </tr>
-      <tr>
-          <td>Persistence</td>
-          <td>Account Manipulation (mailbox permissions)</td>
-          <td>T1098.002</td>
-          <td>Sustained email collection via mailbox-permission abuse</td>
-      </tr>
-      <tr>
-          <td>Privilege Escalation / Defense Evasion</td>
-          <td>DLL Search Order Hijacking</td>
-          <td>T1574.001</td>
-          <td>Malware execution disguised as legitimate loads</td>
-      </tr>
-      <tr>
-          <td>Defense Evasion</td>
-          <td>Indicator Removal (Clear Event Logs)</td>
-          <td>T1070.001</td>
-          <td><code>wevtutil</code> log clearing</td>
-      </tr>
-      <tr>
-          <td>Credential Access</td>
-          <td>Brute Force (Password Spraying)</td>
-          <td>T1110.003</td>
-          <td>Kubernetes- and LDAP-based spraying</td>
-      </tr>
-      <tr>
-          <td>Credential Access</td>
-          <td>Forced Authentication</td>
-          <td>T1187</td>
-          <td>Outlook CVE-2023-23397 NTLM leak</td>
-      </tr>
-      <tr>
-          <td>Credential Access</td>
-          <td>OS Credential Dumping (NTDS)</td>
-          <td>T1003.003</td>
-          <td>Active Directory database export</td>
-      </tr>
-      <tr>
-          <td>Credential Access</td>
-          <td>Unsecured Credentials (GPP)</td>
-          <td>T1552.006</td>
-          <td>Plaintext passwords from Group Policy Preferences</td>
-      </tr>
-      <tr>
-          <td>Discovery</td>
-          <td>Account Discovery (Domain Account)</td>
-          <td>T1087.002</td>
-          <td>LDAP enumeration scripts</td>
-      </tr>
-      <tr>
-          <td>Collection</td>
-          <td>Screen Capture / Clipboard Data</td>
-          <td>T1113 / T1115</td>
-          <td>X-Agent capabilities</td>
-      </tr>
-      <tr>
-          <td>Collection</td>
-          <td>Video Capture</td>
-          <td>T1125</td>
-          <td>IP camera feed access</td>
-      </tr>
-      <tr>
-          <td>Collection</td>
-          <td>Automated / Email Collection</td>
-          <td>T1114 / T1119</td>
-          <td>Exchange Web Services / IMAP mail collection</td>
-      </tr>
-      <tr>
-          <td>Command and Control</td>
-          <td>Proxy (External / Multi-hop)</td>
-          <td>T1090.002/.003</td>
-          <td>SOHO device relays; Tor/VPN layering</td>
-      </tr>
-      <tr>
-          <td>Command and Control</td>
-          <td>Multi-Stage Channels</td>
-          <td>T1104</td>
-          <td>Geofenced phishing redirectors</td>
-      </tr>
-      <tr>
-          <td>Exfiltration</td>
-          <td>Exfiltration Over Alternative Protocol</td>
-          <td>T1048</td>
-          <td>OpenSSH-based data exfiltration</td>
-      </tr>
-      <tr>
-          <td>Exfiltration</td>
-          <td>Scheduled Transfer</td>
-          <td>T1029</td>
-          <td>Periodic EWS-based mail collection</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Tactic</th>
+					<th>Technique</th>
+					<th>ID</th>
+					<th>Observed Use</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Reconnaissance</td>
+					<td>Gather Victim Org Information</td>
+					<td>T1591</td>
+					<td>Reconnaissance of target cybersecurity departments and business partners</td>
+			</tr>
+			<tr>
+					<td>Resource Development</td>
+					<td>Compromise Accounts (Email/Cloud)</td>
+					<td>T1586.002/.003</td>
+					<td>Sending phishing from compromised legitimate accounts</td>
+			</tr>
+			<tr>
+					<td>Initial Access</td>
+					<td>Phishing</td>
+					<td>T1566</td>
+					<td>Credential-harvesting links and malware-laden attachments</td>
+			</tr>
+			<tr>
+					<td>Initial Access</td>
+					<td>Trusted Relationship</td>
+					<td>T1199</td>
+					<td>Pivoting through partners with business ties to the primary target</td>
+			</tr>
+			<tr>
+					<td>Initial Access</td>
+					<td>Exploit Public-Facing Application</td>
+					<td>T1190</td>
+					<td>Outlook, Roundcube, Cisco IOS, WinRAR CVEs</td>
+			</tr>
+			<tr>
+					<td>Initial Access</td>
+					<td>External Remote Services</td>
+					<td>T1133</td>
+					<td>Corporate VPN exploitation</td>
+			</tr>
+			<tr>
+					<td>Execution</td>
+					<td>Command and Scripting Interpreter</td>
+					<td>T1059 (.001/.003/.005/.006)</td>
+					<td>PowerShell, BAT, VBScript, Python payloads</td>
+			</tr>
+			<tr>
+					<td>Persistence</td>
+					<td>Boot/Logon Autostart (Registry Run Keys)</td>
+					<td>T1547.001</td>
+					<td>Persistence via run keys</td>
+			</tr>
+			<tr>
+					<td>Persistence</td>
+					<td>Pre-OS Boot: System Firmware</td>
+					<td>T1542.001</td>
+					<td>LoJax UEFI rootkit</td>
+			</tr>
+			<tr>
+					<td>Persistence</td>
+					<td>Account Manipulation (mailbox permissions)</td>
+					<td>T1098.002</td>
+					<td>Sustained email collection via mailbox-permission abuse</td>
+			</tr>
+			<tr>
+					<td>Privilege Escalation / Defense Evasion</td>
+					<td>DLL Search Order Hijacking</td>
+					<td>T1574.001</td>
+					<td>Malware execution disguised as legitimate loads</td>
+			</tr>
+			<tr>
+					<td>Defense Evasion</td>
+					<td>Indicator Removal (Clear Event Logs)</td>
+					<td>T1070.001</td>
+					<td><code>wevtutil</code> log clearing</td>
+			</tr>
+			<tr>
+					<td>Credential Access</td>
+					<td>Brute Force (Password Spraying)</td>
+					<td>T1110.003</td>
+					<td>Kubernetes- and LDAP-based spraying</td>
+			</tr>
+			<tr>
+					<td>Credential Access</td>
+					<td>Forced Authentication</td>
+					<td>T1187</td>
+					<td>Outlook CVE-2023-23397 NTLM leak</td>
+			</tr>
+			<tr>
+					<td>Credential Access</td>
+					<td>OS Credential Dumping (NTDS)</td>
+					<td>T1003.003</td>
+					<td>Active Directory database export</td>
+			</tr>
+			<tr>
+					<td>Credential Access</td>
+					<td>Unsecured Credentials (GPP)</td>
+					<td>T1552.006</td>
+					<td>Plaintext passwords from Group Policy Preferences</td>
+			</tr>
+			<tr>
+					<td>Discovery</td>
+					<td>Account Discovery (Domain Account)</td>
+					<td>T1087.002</td>
+					<td>LDAP enumeration scripts</td>
+			</tr>
+			<tr>
+					<td>Collection</td>
+					<td>Screen Capture / Clipboard Data</td>
+					<td>T1113 / T1115</td>
+					<td>X-Agent capabilities</td>
+			</tr>
+			<tr>
+					<td>Collection</td>
+					<td>Video Capture</td>
+					<td>T1125</td>
+					<td>IP camera feed access</td>
+			</tr>
+			<tr>
+					<td>Collection</td>
+					<td>Automated / Email Collection</td>
+					<td>T1114 / T1119</td>
+					<td>Exchange Web Services / IMAP mail collection</td>
+			</tr>
+			<tr>
+					<td>Command and Control</td>
+					<td>Proxy (External / Multi-hop)</td>
+					<td>T1090.002/.003</td>
+					<td>SOHO device relays; Tor/VPN layering</td>
+			</tr>
+			<tr>
+					<td>Command and Control</td>
+					<td>Multi-Stage Channels</td>
+					<td>T1104</td>
+					<td>Geofenced phishing redirectors</td>
+			</tr>
+			<tr>
+					<td>Exfiltration</td>
+					<td>Exfiltration Over Alternative Protocol</td>
+					<td>T1048</td>
+					<td>OpenSSH-based data exfiltration</td>
+			</tr>
+			<tr>
+					<td>Exfiltration</td>
+					<td>Scheduled Transfer</td>
+					<td>T1029</td>
+					<td>Periodic EWS-based mail collection</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 
@@ -1805,65 +1947,65 @@
     
 </h3>
 <table>
-  <thead>
-      <tr>
-          <th>Year</th>
-          <th>Incident</th>
-          <th>Attribution basis</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>2015</td>
-          <td>German Bundestag network breach</td>
-          <td>German BfV public attribution; independent forensic analysis of C2 infrastructure and shared SSL certificates with prior Sofacy phishing infrastructure; May 2020 German federal prosecutor arrest warrant for GRU officer Dmitry Badin [82][85][87]</td>
-      </tr>
-      <tr>
-          <td>2016</td>
-          <td>DNC / DCCC / Podesta (Clinton campaign)</td>
-          <td>U.S. DOJ indictment of twelve GRU intelligence officers, 13 July 2018 (Mueller investigation) [18][33]</td>
-      </tr>
-      <tr>
-          <td>2017</td>
-          <td>Macron campaign phishing and pre-runoff document leak</td>
-          <td>Trend Micro technically linked the phishing infrastructure to prior Sofacy/APT28 campaigns against the German CDU, Turkish/Montenegrin parliaments, WADA, Westinghouse, and the DNC; cyber-intelligence firm Flashpoint&rsquo;s initial assessment was explicitly preliminary (&ldquo;may be behind the leak, though evidence was not yet conclusive&rdquo;) [22][70]</td>
-      </tr>
-      <tr>
-          <td>2014–2018</td>
-          <td>WADA, USADA, a U.S. nuclear facility, OPCW, Spiez Swiss chemicals laboratory</td>
-          <td>U.S. DOJ indictment of five GRU Unit 26165 officers, October 2018; separately, four GRU officers were caught and expelled by Dutch military intelligence (MIVD) during an in-person operation against the OPCW in The Hague, April 2018 [33][19]</td>
-      </tr>
-      <tr>
-          <td>2019–2021</td>
-          <td>Global Kubernetes-orchestrated brute-force campaign</td>
-          <td>Joint NSA/CISA/FBI/NCSC-UK advisory [63][65]</td>
-      </tr>
-      <tr>
-          <td>2021</td>
-          <td>Cisco router SNMP exploitation (~250 Ukrainian victims, plus European and U.S. government targets)</td>
-          <td>Joint NCSC-UK/NSA/CISA/FBI advisory, AA23-108 [6][55]</td>
-      </tr>
-      <tr>
-          <td>2022–2024</td>
-          <td>&ldquo;Nearest Neighbor&rdquo; Wi-Fi daisy-chain breach of a Washington, D.C.-area organization researching Ukraine</td>
-          <td>Volexity incident-response investigation; corroborated by overlapping indicators in a subsequent Microsoft report [10][143]</td>
-      </tr>
-      <tr>
-          <td>2022–2025</td>
-          <td>Sustained targeting of Western logistics/tech firms supporting Ukraine aid, plus IP-camera surveillance of border crossings</td>
-          <td>Joint advisory co-sealed by 11 countries&rsquo; cyber and intelligence agencies, AA25-141A [9]</td>
-      </tr>
-      <tr>
-          <td>2023–2025</td>
-          <td>&ldquo;Operation RoundPress&rdquo;, MDaemon/Roundcube webmail zero-day exploitation across Eastern Europe, with observed targets in Africa, Europe, and South America</td>
-          <td>ESET, medium-confidence attribution [12]</td>
-      </tr>
-      <tr>
-          <td>2026</td>
-          <td>PRISMEX malware campaign, rapid weaponization of CVE-2026-21509/21513 against Ukraine/NATO logistics targets</td>
-          <td>The Hacker News / Akamai reporting [89]</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Year</th>
+					<th>Incident</th>
+					<th>Attribution basis</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>2015</td>
+					<td>German Bundestag network breach</td>
+					<td>German BfV public attribution; independent forensic analysis of C2 infrastructure and shared SSL certificates with prior Sofacy phishing infrastructure; May 2020 German federal prosecutor arrest warrant for GRU officer Dmitry Badin [82][85][87]</td>
+			</tr>
+			<tr>
+					<td>2016</td>
+					<td>DNC / DCCC / Podesta (Clinton campaign)</td>
+					<td>U.S. DOJ indictment of twelve GRU intelligence officers, 13 July 2018 (Mueller investigation) [18][33]</td>
+			</tr>
+			<tr>
+					<td>2017</td>
+					<td>Macron campaign phishing and pre-runoff document leak</td>
+					<td>Trend Micro technically linked the phishing infrastructure to prior Sofacy/APT28 campaigns against the German CDU, Turkish/Montenegrin parliaments, WADA, Westinghouse, and the DNC; cyber-intelligence firm Flashpoint&rsquo;s initial assessment was explicitly preliminary (&ldquo;may be behind the leak, though evidence was not yet conclusive&rdquo;) [22][70]</td>
+			</tr>
+			<tr>
+					<td>2014–2018</td>
+					<td>WADA, USADA, a U.S. nuclear facility, OPCW, Spiez Swiss chemicals laboratory</td>
+					<td>U.S. DOJ indictment of five GRU Unit 26165 officers, October 2018; separately, four GRU officers were caught and expelled by Dutch military intelligence (MIVD) during an in-person operation against the OPCW in The Hague, April 2018 [33][19]</td>
+			</tr>
+			<tr>
+					<td>2019–2021</td>
+					<td>Global Kubernetes-orchestrated brute-force campaign</td>
+					<td>Joint NSA/CISA/FBI/NCSC-UK advisory [63][65]</td>
+			</tr>
+			<tr>
+					<td>2021</td>
+					<td>Cisco router SNMP exploitation (~250 Ukrainian victims, plus European and U.S. government targets)</td>
+					<td>Joint NCSC-UK/NSA/CISA/FBI advisory, AA23-108 [6][55]</td>
+			</tr>
+			<tr>
+					<td>2022–2024</td>
+					<td>&ldquo;Nearest Neighbor&rdquo; Wi-Fi daisy-chain breach of a Washington, D.C.-area organization researching Ukraine</td>
+					<td>Volexity incident-response investigation; corroborated by overlapping indicators in a subsequent Microsoft report [10][143]</td>
+			</tr>
+			<tr>
+					<td>2022–2025</td>
+					<td>Sustained targeting of Western logistics/tech firms supporting Ukraine aid, plus IP-camera surveillance of border crossings</td>
+					<td>Joint advisory co-sealed by 11 countries&rsquo; cyber and intelligence agencies, AA25-141A [9]</td>
+			</tr>
+			<tr>
+					<td>2023–2025</td>
+					<td>&ldquo;Operation RoundPress&rdquo;, MDaemon/Roundcube webmail zero-day exploitation across Eastern Europe, with observed targets in Africa, Europe, and South America</td>
+					<td>ESET, medium-confidence attribution [12]</td>
+			</tr>
+			<tr>
+					<td>2026</td>
+					<td>PRISMEX malware campaign, rapid weaponization of CVE-2026-21509/21513 against Ukraine/NATO logistics targets</td>
+					<td>The Hacker News / Akamai reporting [89]</td>
+			</tr>
+	</tbody>
 </table>
 
 <h3 class="relative group">6.2 Confidence Level in Attribution
@@ -2458,8 +2600,6 @@ rule GENERIC_PSEXEC {
 
       </main><footer id="site-footer" class="py-10 print:hidden">
   
-  
-    
   
   <div class="flex items-center justify-between">
     

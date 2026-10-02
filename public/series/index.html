@@ -49,6 +49,12 @@
     
       
         
+          <link href="function_anonymous@proton.me" rel="me">
+        
+      
+    
+      
+        
           <link href="https://github.com/gbrlprs" rel="me">
         
       
@@ -81,14 +87,14 @@
 
   
   <meta property="og:url" content="http://localhost:1313/series/">
-  <meta property="og:site_name" content="home">
-  <meta property="og:title" content="Series">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="home">
+	<meta property="og:title" content="Series">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="website">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Series">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Series">
 
   
   
@@ -135,8 +141,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eb3c567def6dd8a47523d0bb7cc30846fc51e6ce5ca706a2f21f182a50e22becfc150bbe72dce54b6d933c75d11ca9f0348b6cc894a413ec45fdceb194d68f00.css"
-    integrity="sha512-6zxWfe9t2KR1I9C7fMMIRvxR5s5cpwai8h8YKlDiK&#43;z8FQu&#43;ctzlS22TPHXRHKnwNItsyJSkE&#43;xF/c6xlNaPAA==">
+    href="/css/main.bundle.min.b3e089fbba3c5f9cbffee47a74ebd88c3e9fc1d79bd780756675342dd82b3d1c8cd434129f190177ab8f02ae5a784d55250ef6b1e9def65acb6d4912d4ec0d5d.css"
+    integrity="sha512-s&#43;CJ&#43;7o8X5y//uR6dOvYjD6fwdeb14B1ZnU0LdgrPRyM1DQSnxkBd6uPAq5aeE1VJQ72sene9lrLbUkS1OwNXQ==">
 
   
   
@@ -175,8 +181,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.17a5a9b48060ea4f92b736f95548015a5a155f9a4c46712c6c7a751b398eab6fa742f0db7c2b085269151c17894fa9468252fbf665527de606d077998e462aa3.js"
-      integrity="sha512-F6WptIBg6k&#43;Stzb5VUgBWloVX5pMRnEsbHp1GzmOq2&#43;nQvDbfCsIUmkVHBeJT6lGglL79mVSfeYG0HeZjkYqow=="
+      src="/js/main.bundle.min.ecde4393b7348405774ad47459b74f73673ea7e170d83b1858d04fa1ec8330281a5fb97d2d868e6411fbba964b8f2bc5b6dbabcc4115672779f264450dbd7f07.js"
+      integrity="sha512-7N5Dk7c0hAV3StR0WbdPc2c&#43;p&#43;Fw2DsYWNBPoeyDMCgaX7l9LYaOZBH7upZLjyvFtturzEEVZyd58mRFDb1/Bw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -291,6 +297,10 @@
 
 
 
+
+  
+    
+  
 
 
 
@@ -613,6 +623,23 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -646,13 +673,38 @@
 
   
   
+    
+    
+  
 
 
 
 
   
+    
+    
+      
+      
+    
+  
 
 
+
+  
+  
+  
+    
+  
+  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
+    <img
+      src="/okay_hu_e1aeee31dd0118b.jpg"
+      role="presentation"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="w-full h-full nozoom object-cover"
+      style="object-position: 50% 50%;">
+  </div>
 
 
     <header class="mt-5">
@@ -692,8 +744,7 @@
   
 
   
-
-    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
       
     </section>
   
@@ -722,8 +773,6 @@
 
       </main><footer id="site-footer" class="py-10 print:hidden">
   
-  
-    
   
   <div class="flex items-center justify-between">
     

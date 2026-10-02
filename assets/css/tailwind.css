@@ -1,0 +1,13 @@
+@config "./tailwind.config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root, .dark {
+    --color-neutral-900: 0 0% 0%;       /* #000000 - Preto Absoluto para o fundo principal */
+    --color-neutral-800: 0 0% 5%;       /* #0d0d0d - Preto bem escuro para os cards */
+    --color-neutral-700: 0 0% 15%;      /* #262626 - Cor das bordas e divisórias */
+    --color-neutral-50: 0 0% 100%;     /* #ffffff - Cor do texto principal */
+  }
+}
